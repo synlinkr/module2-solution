@@ -1,0 +1,186 @@
+
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+}
+h1 {
+  margin-bottom: 15px;
+  text-align: center;
+  font-size: 175%;
+}
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+}
+
+/********** Desktop **********/
+@media (min-width: 992px) {
+  .col-dt-1, .col-dt-2, .col-dt-3, .col-dt-4, .col-dt-5, .col-dt-6, .col-dt-7, .col-dt-8, .col-dt-9, .col-dt-10, .col-dt-11, .col-dt-12 {
+    float: left;
+      }
+  .col-dt-1 {
+    width: 8.33%;
+  }
+  .col-dt-2 {
+    width: 16.66%;
+  }
+  .col-dt-3 {
+    width: 25%;
+  }
+  .col-dt-4 {
+    width: 33.33%;
+  }
+  .col-dt-5 {
+    width: 41.66%;
+  }
+  .col-dt-6 {
+    width: 50%;
+  }
+  .col-dt-7 {
+    width: 58.33%;
+  }
+  .col-dt-8 {
+    width: 66.66%;
+  }
+  .col-dt-9 {
+    width: 74.99%;
+  }
+  .col-dt-10 {
+    width: 83.33%;
+  }
+  .col-dt-11 {
+    width: 91.66%;
+  }
+  .col-dt-12 {
+    width: 100%;
+  }
+}
+
+/********** Tablet **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-tl-1, .col-tl-2, .col-tl-3, .col-tl-4, .col-tl-5, .col-tl-6, .col-tl-7, .col-tl-8, .col-tl-9, .col-tl-10, .col-tl-11, .col-tl-12 {
+    float: left;
+    }
+  .col-tl-1 {
+    width: 8.33%;
+  }
+  .col-tl-2 {
+    width: 16.66%;
+  }
+  .col-tl-3 {
+    width: 25%;
+  }
+  .col-tl-4 {
+    width: 33.33%;
+  }
+  .col-tl-5 {
+    width: 41.66%;
+  }
+  .col-tl-6 {
+    width: 50%;
+  }
+  .col-tl-7 {
+    width: 58.33%;
+  }
+  .col-tl-8 {
+    width: 66.66%;
+  }
+  .col-tl-9 {
+    width: 74.99%;
+  }
+  .col-tl-10 {
+    width: 83.33%;
+  }
+  .col-tl-11 {
+    width: 91.66%;
+  }
+  .col-tl-12 {
+    width: 100%;
+  }
+}
+
+/********** Mobile **********/
+@media (max-width: 767px) {
+  .col-mb-1, .col-mb-2, .col-mb-3, .col-mb-4, .col-mb-5, .col-mb-6, .col-mb-7, .col-mb-8, .col-mb-9, .col-mb-10, .col-mb-11, .col-mb-12 {
+    float: left;
+    }
+  .col-mb-1 {
+    width: 8.33%;
+  }
+  .col-mb-2 {
+    width: 16.66%;
+  }
+  .col-mb-3 {
+    width: 25%;
+  }
+  .col-mb-4 {
+    width: 33.33%;
+  }
+  .col-mb-5 {
+    width: 41.66%;
+  }
+  .col-mb-6 {
+    width: 50%;
+  }
+  .col-mb-7 {
+    width: 58.33%;
+  }
+  .col-mb-8 {
+    width: 66.66%;
+  }
+  .col-mb-9 {
+    width: 74.99%;
+  }
+  .col-mb-10 {
+    width: 83.33%;
+  }
+  .col-mb-11 {
+    width: 91.66%;
+  }
+  .col-mb-12 {
+    width: 100%;
+  }
+}
+
+.container {
+  border: 1px solid black;
+  background-color: #EDEDED;
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-bottom: 2em;
+
+  }
+
+.title {
+  text-align: center;;
+  border: 1px solid black;
+  float: right;
+  font-size: 125%;
+  font-family: Georgia;
+  position: relative;
+  bottom: 1px;
+  left: 1px;
+}
+
+.text {
+  font-family: Arial;
+  padding-left: 1em;
+  padding-top: 1em;
+  padding-right: 1em;
+  text-align: justify;
+}
+
+#Tofu {
+  background-color: #d7bd96;
+  color: white;
+}
+
+#Rice {
+  background-color: #BFC4A7;
+  color: white;
+}
+
+#Noodles {
+  background-color: #fce4b1;
+  color: white;
+}
